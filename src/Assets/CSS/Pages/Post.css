@@ -1,0 +1,137 @@
+.Global{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.ToolPost{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 15px;
+    height: 100%;
+    padding: 2%;
+    margin-top: 20%;
+    margin-bottom: 2%;
+}
+
+.ToolPost Button{
+    width: 80%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(230, 230, 230);
+    color: rgb(143, 143, 143);
+    cursor: pointer;
+}
+
+.ToolPost Button:hover{
+    background-color: rgb(204, 204, 204);
+    color: rgb(143, 143, 143);
+    border: 1px solid rgb(158, 158, 158);
+}
+
+.ToolPost .Dialog{
+    width: 80%;
+}
+
+.ToolPost TextField{
+    padding: 10px !important;
+}
+
+.NewFeed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 30%;
+    border-radius: 10px;
+    height: 100%;
+    margin: 2%;
+    margin-left: 5%;
+    overflow-y: auto;
+    /* position: fixed; */
+    bottom: 0;
+    top: 20%;
+}
+
+.Post{
+    background-color: #F3F3F3;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 5%;    
+}
+
+.Post .PostHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    margin: 10px;
+}
+
+.Post .PostHeader .PostHeaderInfo{
+    width: 80%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.Post .PostHeader .PostHeaderInfo h3{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.Post .PostHeader .PostHeaderInfo p{
+    font-size: 12px;
+    color: #838383;
+}
+
+.PostBody{
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.postImages{
+    width: 100%;
+    object-fit: contain;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.PostFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 1000px){
+    .NewFeed{
+        width: 90%;
+        margin-bottom: 25%;
+    }
+
+    .Post{
+        width: 90%;
+
+    }
+}
+    
