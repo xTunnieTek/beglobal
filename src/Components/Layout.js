@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 import Sidebar from './Sidebar';
 import Avatar from '@mui/material/Avatar';
-import Logo from '../Assets/Images/logoBe.png';
+import Logo from '../Assets/Images/beDate.png';
 import '../Assets/CSS/Global.css';
 
 
