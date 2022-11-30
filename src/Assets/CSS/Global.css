@@ -8,6 +8,16 @@ a{
     text-decoration: none;
 }
 
+.layout{
+    display: flex;
+    flex-direction: column;
+}
+.layout-down{
+    display: flex;
+    flex-direction: row;
+}
+
+
 /* ============================================================================== */
 /* ====================                 HEADER             ====================== */
 /* ============================================================================== */
@@ -19,14 +29,12 @@ a{
     background-color: #fff;
     z-index: 2;
     border-bottom: 3px solid #F3F3F3;
-    padding: 10px;
-    height: 10vh;
-    position: fixed;
+    padding: 5px;
     width: 100%;
 }
 
 .header img{
-    width: 10%;
+    width: 180px;
 }
 
 @media screen and (max-width: 768px){
@@ -63,11 +71,9 @@ a{
 .sidebar{
     border-right: 2px solid #F3F3F3;
     height: 100vh;
-    width: 100%;
     position: fixed;
-    top: 8vh;
     left: 0;
-    width: 16%;
+    width: 300px;
     background-color: #F3F3F3;
 }
 
@@ -77,10 +83,9 @@ a{
     /* justify-content: center; */
     align-items: center;
     flex-direction: row;
-    background: linear-gradient(to left, #f8577a, #ff5858);
-    color: #F3F3F3;
-    padding: 30px;
-    justify-content: space-around
+    background: linear-gradient(to left, #f85757, #e03030);
+    color: #ffffff;
+    padding: 25px;
 }
 
 .sidebar i{
@@ -181,14 +186,14 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
     display: none;
 }
 
 .footer button{
     width: 100%;
     border-radius: 20px;
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
 }
 
@@ -219,7 +224,7 @@ a{
         bottom: 0;
         position: fixed;
         margin-left: 16px;
-        background-color: #F3F3F3;
+        background-color: #ffffff;
         width: 100%;
     }
 }
