@@ -12,20 +12,20 @@ export default function Layout({children}) {
   return (
     <React.Fragment>
       <CssBaseline />
-        <Grid container spacing={2}>
-            <Grid item md={12} xs={12}>
-                <div className="header">
-                    <img src={Logo} alt="Logo" className="logo" />
-                </div>
-            </Grid>
-            <Grid item md={2}>
-                <Sidebar />
-            </Grid>
-            <Grid item md={10} xs={12} >
-                <div className="content">
-                    {children}
-                </div>
-            </Grid>
+        <Grid class="layout" container spacing={2}>
+            <div className="header">
+                <img src={Logo} alt="Logo" className="logo" />
+            </div>
+            <div class="layout-down">
+                <Grid item md={2}>
+                    <Sidebar />
+                </Grid>
+                <Grid item md={10} xs={12} >
+                    <div className="content">
+                        {children}
+                    </div>
+                </Grid>
+            </div>
             <Grid item md={12} xs={12}>
                 <div className="footer">
                 <Button><i class="fa-solid fa-infinity"></i></Button>
