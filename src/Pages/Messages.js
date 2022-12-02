@@ -36,7 +36,6 @@ export default function Messages() {
                 <div className="Chat">
                     <div className="WChat">
                         <div className="Name">
-                            <Avatar sx={{ width: 40, height: 40 }} />
                             <h3>Kim Ji-soo</h3>
                             <Fab size="small" color="primary" aria-label="add" style={{background:"#E94057", zIndex:"1"}}>
                                 <Facetime />

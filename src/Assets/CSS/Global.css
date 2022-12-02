@@ -15,6 +15,8 @@ a{
 .layout-down{
     display: flex;
     flex-direction: row;
+    position: relative;
+    top: 7vh;
 }
 
 
@@ -29,8 +31,10 @@ a{
     background-color: #fff;
     z-index: 2;
     border-bottom: 3px solid #F3F3F3;
-    padding: 5px;
+    padding: 30px;
     width: 100%;
+    position: fixed;
+    height: 7vh;
 }
 
 .header img{
