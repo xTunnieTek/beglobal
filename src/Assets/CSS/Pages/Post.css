@@ -22,7 +22,7 @@
     border-radius: 15px;
     height: 100%;
     padding: 2%;
-    margin-top: 20%;
+    /* margin-top: 20%; */
     margin-bottom: 2%;
 }
 
@@ -60,11 +60,8 @@
     border-radius: 10px;
     height: 100%;
     margin: 2%;
-    margin-left: 5%;
     overflow-y: auto;
-    /* position: fixed; */
     bottom: 0;
-    top: 20%;
 }
 
 .Post{

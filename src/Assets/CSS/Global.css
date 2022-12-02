@@ -43,8 +43,10 @@ a{
     }
 
     .header{
-        width: 110% !important;
+        width: 100% !important;
         height: 10vh;
+        position: sticky;
+        top: 0;
     }
 
 }
@@ -73,7 +75,7 @@ a{
     height: 100vh;
     position: fixed;
     left: 0;
-    width: 300px;
+    width: 320px;
     background-color: #F3F3F3;
 }
 
@@ -223,9 +225,11 @@ a{
         display: flex;
         bottom: 0;
         position: fixed;
-        margin-left: 16px;
+        /* margin-left: 16px; */
         background-color: #ffffff;
         width: 100%;
+        z-index: 9999 !important;
+
     }
 }
     

@@ -9,9 +9,9 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import { Avatar } from "@mui/material";
 import TextareaAutosize from '@mui/material/TextareaAutosize';
-import IconButton from '@mui/material/IconButton';
+// import IconButton from '@mui/material/IconButton';
 import Love from '@mui/icons-material/FavoriteBorder';
-import Loved from '@mui/icons-material/Favorite';
+// import Loved from '@mui/icons-material/Favorite';
 
 
 import { Fab } from '@mui/material';
@@ -63,16 +63,16 @@ export default function Global() {
                         style={{ width: '100%', height: '100%', border: '1px solid #dedede', outline: 'none', resize: 'none', fontSize: '1rem', padding: '1rem', fontFamily: 'Roboto', borderRadius: '5px' }}
                     />
                     <div className="files">
-                        <Fab id="hate" sx={{ bgcolor: '#FFF', color: '#F27121'}} aria-label="images">
+                        <Fab sx={{ bgcolor: '#FFF', color: '#F27121'}} aria-label="images">
                             <Images />
                         </Fab>
-                        <Fab id="hate" sx={{ bgcolor: '#FFF', color: 'secondary', margin:2 }} aria-label="file">
+                        <Fab sx={{ bgcolor: '#FFF', color: 'secondary', margin:2 }} aria-label="file">
                             <Link />
                         </Fab>
-                        <Fab id="hate" sx={{ bgcolor: '#FFF', color: '#2374E1'}} aria-label="fb">
+                        <Fab sx={{ bgcolor: '#FFF', color: '#2374E1'}} aria-label="fb">
                             <FB />
                         </Fab>
-                        <Fab id="hate" sx={{ bgcolor: '#FFF', color: '#E94057', margin:2 }} aria-label="ig">
+                        <Fab sx={{ bgcolor: '#FFF', color: '#E94057', margin:2 }} aria-label="ig">
                             <IG />
                         </Fab>
                     </div>
@@ -121,6 +121,9 @@ export default function Global() {
                         <Fab aria-label="love" sx={{ color: '#e94057','&:hover': {color: '#942837',}}}>
                             <Love />
                         </Fab>
+                        <Button >
+                            Comment
+                        </Button>  
                     </div>
                 </div>
 

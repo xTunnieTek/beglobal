@@ -1,0 +1,25 @@
+
+.Facetime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Screen iframe{
+    width: 1550px;
+    height: 800px;
+    border: none;
+}
+
+.ToolFacetime{
+    display: flex;
+    flex-direction: row;
+    width: 1550px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ToolFacetime .Icon{
+    margin-left: 5%;
+    margin-right: 5%;
+}
