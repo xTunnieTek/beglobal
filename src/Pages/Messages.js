@@ -2,7 +2,6 @@ import Layout from "../Components/Layout";
 import "../Assets/CSS/Pages/Messages.css"
 import * as React from 'react';
 import SendIcon from '@mui/icons-material/Telegram';
-// import SendIcon from '@mui/icons-material/Send';
 import Facetime from '@mui/icons-material/Videocam';
 
 import { Avatar } from "@mui/material";

@@ -11,6 +11,9 @@ import Home from './Pages/Home';
 import Global from './Pages/Global';
 import Messages from './Pages/Messages';
 import Facetime from './Pages/Facetime';
+import Welcome from './Pages/Welcome';
+import Login from './Pages/Login';
+import About from './Pages/Aboutme';
 
 
 
@@ -21,7 +24,9 @@ function App() {
       <Router>
         {/* <Layout> */}
           <Routes>
-            <Route path="/" element= {<Home/>} />
+            <Route path="/" element= {<Welcome/>} />
+            <Route path="/Aboutme" element= {<About/>} />
+            <Route path="/Login" element= {<Login/>} />
             <Route path="/Home" element= {<Home/>} />
             <Route path="/Global" element= {<Global/>} />
             <Route path="/Messages" element= {<Messages/>} />
