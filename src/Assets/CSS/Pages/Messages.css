@@ -171,12 +171,18 @@
 /* Media */
 @media screen and (max-width: 768px){
     .Messages{
-        margin-top: 10%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .History{
+        height: 70vh;
     }
 
     .Chat{
@@ -208,10 +214,18 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        bottom: 0;
         background-color: #f0f0f0;
-        width: 100%;
         padding: 1%;
+        position: fixed;
+        bottom: 7%;
+    }
+
+    .ToolBox .file{
+        display: none;
+    }
+
+    .ToolBox input{
+        width: 20rem;
     }
 }
     

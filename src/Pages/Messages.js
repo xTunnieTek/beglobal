@@ -10,6 +10,7 @@ import Images from '@mui/icons-material/InsertPhotoOutlined';
 import Link from '@mui/icons-material/Inventory2Outlined';
 import FB from '@mui/icons-material/FacebookOutlined';
 import IG from '@mui/icons-material/Instagram';
+import MicIcon from '@mui/icons-material/Mic';
 
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
@@ -81,14 +82,14 @@ export default function Messages() {
                             </div>
                         </div>
                         <div className="ToolBox">
-                            <div className="file">
+                            <div className="image">
                                 <Fab size="small" color="primary" aria-label="add" style={{backgroundColor: "#F27121"}}>
                                     <Images />
                                 </Fab>
                             </div>
-                            <div className="file">
+                            <div className="voice">
                                 <Fab size="small" color="primary" aria-label="add" style={{backgroundColor: "#8A2BE2"}}>
-                                    <Link />
+                                    <MicIcon />
                                 </Fab>
                             </div>
                             <div className="file">
