@@ -125,6 +125,36 @@ export default function Global() {
                         style={{outline:'none',width:'17rem',padding:'2%',fontSize:'1rem',backgroundColor:'#FFF',borderRadius:'10px',border:'1px solid #dedede',marginLeft:'5%'}}
                         type="text" placeholder="Add a comment..." />
                     </div>
+                    {/* COMMENT */}
+                    <div className="Comment">
+                        <div className="CommentHeader">
+                            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" sx={{ width: 35, height: 35, margin:1 }} />
+                        </div>
+                        <div className="CommentBody">
+                            <div className="CommentHeaderInfo">
+                                <h3>Remy Sharp</h3>
+                                <p>Today at 5:42 PM</p>
+                            </div>
+                            <div className="CommentText">
+                                <p>Em xinh thật đấy, anh rất thích em </p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* COMMENT */}
+                    <div className="Comment">
+                        <div className="CommentHeader">
+                            <Avatar alt="Huy" src="/static/images/avatar/1.jpg" sx={{ width: 35, height: 35, margin:1 }} />
+                        </div>
+                        <div className="CommentBody">
+                            <div className="CommentHeaderInfo">
+                                <h3>Huy</h3>
+                                <p>Today at 5:42 PM</p>
+                            </div>
+                            <div className="CommentText">
+                                <p>Nhìn cũng ra gì đấy, ổn phết</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="Post">
@@ -147,49 +177,35 @@ export default function Global() {
                         style={{outline:'none',width:'17rem',padding:'2%',fontSize:'1rem',backgroundColor:'#FFF',borderRadius:'10px',border:'1px solid #dedede',marginLeft:'5%'}}
                         type="text" placeholder="Add a comment..." />
                     </div>
-                </div>
-
-                <div className="Post">
-                    <div className="PostHeader">
-                        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                        <div className="PostHeaderInfo">
-                            <h3>Remy Sharp</h3>
-                            <p>Today at 5:42 PM</p>
+                    {/* COMMENT */}
+                    <div className="Comment">
+                        <div className="CommentHeader">
+                            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" sx={{ width: 35, height: 35, margin:1 }} />
+                        </div>
+                        <div className="CommentBody">
+                            <div className="CommentHeaderInfo">
+                                <h3>Remy Sharp</h3>
+                                <p>Today at 5:42 PM</p>
+                            </div>
+                            <div className="CommentText">
+                                <p>Hi, I'm Remy Sharp. I'm a software engineer and I'm passionate about building great software. Hi, I'm Remy Sharp. I'm a software engineer and I'm passionate about building great software Hi, I'm Remy Sharp. I'm a software engineer and I'm passionate about building great software</p>
+                            </div>
                         </div>
                     </div>
-                    <div className="PostBody">
-                        <p>Hi, I'm Remy Sharp. I'm a software engineer and I'm passionate about building great software. I have a lot of experience building web applications using React, Node, and GraphQL. I'm currently looking for a new role and am open to a wide range of opportunities. If you'd like to chat about a potential role, please reach out!</p> 
-                    </div>
-                    <div className="PostFooter">
-                        <Fab size="small" aria-label="love" sx={{ color: '#FFFFFF',background:'#E94057',marginRight:'3%' , zIndex:'1','&:hover': {color: '#942837',}}}>
-                            <Love />
-                        </Fab>
-                        <b>1.5k Like</b>
-                        <input 
-                        style={{outline:'none',width:'17rem',padding:'2%',fontSize:'1rem',backgroundColor:'#FFF',borderRadius:'10px',border:'1px solid #dedede',marginLeft:'5%'}}
-                        type="text" placeholder="Add a comment..." />
-                    </div>
-                </div>
-
-                <div className="Post">
-                    <div className="PostHeader">
-                        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                        <div className="PostHeaderInfo">
-                            <h3>Remy Sharp</h3>
-                            <p>Today at 5:42 PM</p>
+                    {/* COMMENT */}
+                    <div className="Comment">
+                        <div className="CommentHeader">
+                            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" sx={{ width: 35, height: 35, margin:1 }} />
                         </div>
-                    </div>
-                    <div className="PostBody">
-                        <p>Hi, I'm Remy Sharp. I'm a software engineer and I'm passionate about building great software. I have a lot of experience building web applications using React, Node, and GraphQL. I'm currently looking for a new role and am open to a wide range of opportunities. If you'd like to chat about a potential role, please reach out!</p> 
-                    </div>
-                    <div className="PostFooter">
-                        <Fab size="small" aria-label="love" sx={{ color: '#FFFFFF',background:'#E94057',marginRight:'3%' , zIndex:'1','&:hover': {color: '#942837',}}}>
-                            <Love />
-                        </Fab>
-                        <b>1.5k Like</b>
-                        <input 
-                        style={{outline:'none',width:'17rem',padding:'2%',fontSize:'1rem',backgroundColor:'#FFF',borderRadius:'10px',border:'1px solid #dedede',marginLeft:'5%'}}
-                        type="text" placeholder="Add a comment..." />
+                        <div className="CommentBody">
+                            <div className="CommentHeaderInfo">
+                                <h3>Remy Sharp</h3>
+                                <p>Today at 5:42 PM</p>
+                            </div>
+                            <div className="CommentText">
+                                <p>Hi, I'm Remy Sharp. I'm a software engineer and I'm passionate about building great software. Hi, I'm Remy Sharp. I'm a software engineer and I'm passionate about building great software Hi, I'm Remy Sharp. I'm a software engineer and I'm passionate about building great software</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

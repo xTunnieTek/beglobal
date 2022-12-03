@@ -16,6 +16,7 @@ import Login from './Pages/Login';
 import About from './Pages/Aboutme';
 import Premium from './Pages/Premium';
 import Payment from './Pages/Payment';
+import Matches from './Pages/Matches';
 
 
 
@@ -35,6 +36,7 @@ function App() {
             <Route path="/Facetime" element= {<Facetime/>} />
             <Route path="/Premium" element= {<Premium/>} />
             <Route path="/Payment" element= {<Payment/>} />
+            <Route path="/Matches" element= {<Matches/>} />
           </Routes>
         {/* </Layout> */}
       </Router>

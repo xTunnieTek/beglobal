@@ -18,28 +18,28 @@
     justify-content: center;
     justify-content: space-evenly;
     width: 100%;
-    border: 1px solid rgb(235, 235, 235);
+    border: 1px solid #f80759;
     border-radius: 10px;
     height: 100%;
     padding: 2%;
-    /* margin-top: 20%; */
     margin-bottom: 2%;
 }
 
 .ToolPost Button{
-    width: 80%;
+    width: 70%;
     height: 100%;
     border: none;
     border-radius: 15px;
-    background-color: rgb(230, 230, 230);
-    color: rgb(143, 143, 143);
+    background: linear-gradient(to left, #bc4e9c, #f80759);
+    color: #FFF;
     cursor: pointer;
 }
 
 .ToolPost Button:hover{
-    background-color: rgb(204, 204, 204);
-    color: rgb(143, 143, 143);
-    border: 1px solid rgb(158, 158, 158);
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+    border: #f80759;
+    width: 80%;
+    transition: 1s ease; 
 }
 
 .ToolPost .Dialog{
@@ -65,7 +65,7 @@
 }
 
 .Post{
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     padding: 10px;
     border-radius: 10px;
     margin: 5px;
@@ -118,6 +118,39 @@
     width: 100%;
     height: 10%;
     margin: 10px;
+    padding: 10px;
+    border-bottom:  1px solid #E3E3E3;
+}
+
+.Post .Comment{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    margin: 10px;
+}
+
+.Post .Comment .CommentHeaderInfo h3{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.Post .Comment .CommentHeaderInfo p{
+    font-size: 11px;
+    color: #838383;
+}
+
+
+.Post .Comment .CommentBody{
+    font-size: 12px;
+    margin: 1%;
+}
+
+.Post .Comment .CommentBody .CommentText{
+    /* width: 100%; */
+    background-color: #E94057;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 
@@ -129,7 +162,19 @@
 
     .Post{
         width: 90%;
+    }
 
+    .ToolPost{
+        width: 90%;
+    }
+    
+    .PostFooter b{
+        font-size: 2.5vw;
+
+    }
+
+    .PostFooter input{
+        width: 45vw !important;
     }
 }
     

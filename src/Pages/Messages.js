@@ -3,7 +3,6 @@ import "../Assets/CSS/Pages/Messages.css"
 import * as React from 'react';
 import SendIcon from '@mui/icons-material/Telegram';
 import Facetime from '@mui/icons-material/Videocam';
-
 import { Avatar } from "@mui/material";
 import { Fab } from '@mui/material';
 import Images from '@mui/icons-material/InsertPhotoOutlined';
@@ -25,6 +24,7 @@ export default function Messages() {
                 <div className="Chat">
                     <div className="WChat">
                         <div className="Name">
+                            <Avatar alt="Jisoo" src={Jisoo} />
                             <h3>Kim Ji-soo</h3>
                             <Fab size="small" color="primary" aria-label="add" style={{background:"#E94057", zIndex:"1"}}>
                                 <Facetime />
@@ -32,7 +32,6 @@ export default function Messages() {
                         </div>
                         <div className="History">
                             <div className="Send">
-                                <Avatar sx={{ width: 40, height: 40 }} />
                                 <div className="Text">
                                     <p>Hi, I'm Tuan When the component is dynamically displayed, the content is automatically announced by most screen readers. At this time, screen readers do not inform users of alerts that are present when the page loads. Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (for example the visible text), or is included through alternative means, such as additional hidden text.</p>
                                 </div>
@@ -41,7 +40,6 @@ export default function Messages() {
                                 </div>
                             </div>
                             <div className="Received">
-                                <Avatar sx={{ width: 40, height: 40 }} />
                                 <div className="Text">
                                     <p>Hi, I'm Tuan When the component is dynamically displayed, the content is automatically announced by most screen readers. At this time, screen readers do not inform users of alerts that are present when the page loads. Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (for example the visible text), or is included through alternative means, such as additional hidden text.</p>
                                 </div>
@@ -50,7 +48,6 @@ export default function Messages() {
                                 </div>
                             </div>
                             <div className="Send">
-                                <Avatar sx={{ width: 40, height: 40 }} />
                                 <div className="Text">
                                     <p>Hi, I'm Tuan When the component is dynamically displayed, the content is automatically announced by most screen readers. At this time, screen readers do not inform users of alerts that are present when the page loads. Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (for example the visible text), or is included through alternative means, such as additional hidden text.</p>
                                     <p>Hi, I'm Tuan When the component is dynamically displayed, the content is automatically announced by most screen readers. At this time, screen readers do not inform users of alerts that are present when the page loads. Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (for example the visible text), or is included through alternative means, such as additional hidden text.</p>
@@ -60,7 +57,6 @@ export default function Messages() {
                                 </div>
                             </div>
                             <div className="Received">
-                                <Avatar sx={{ width: 40, height: 40 }} />
                                 <div className="Text">
                                     <p>Hi, I'm Tuan When the component is dynamically displayed, the content is automatically announced by most screen readers. At this time, screen readers do not inform users of alerts that are present when the page loads. Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (for example the visible text), or is included through alternative means, such as additional hidden text.</p>
                                 </div>
