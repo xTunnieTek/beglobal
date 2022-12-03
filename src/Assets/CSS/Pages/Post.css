@@ -18,8 +18,8 @@
     justify-content: center;
     justify-content: space-evenly;
     width: 100%;
-    border: 1px solid rgb(197, 197, 197);
-    border-radius: 15px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 10px;
     height: 100%;
     padding: 2%;
     /* margin-top: 20%; */
@@ -99,8 +99,9 @@
 
 .PostBody{
     font-size: 15px;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 10px;
+    border-bottom: 1px solid #E3E3E3;
 }
 
 .postImages{

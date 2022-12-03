@@ -14,6 +14,8 @@ import Facetime from './Pages/Facetime';
 import Welcome from './Pages/Welcome';
 import Login from './Pages/Login';
 import About from './Pages/Aboutme';
+import Premium from './Pages/Premium';
+import Payment from './Pages/Payment';
 
 
 
@@ -31,6 +33,8 @@ function App() {
             <Route path="/Global" element= {<Global/>} />
             <Route path="/Messages" element= {<Messages/>} />
             <Route path="/Facetime" element= {<Facetime/>} />
+            <Route path="/Premium" element= {<Premium/>} />
+            <Route path="/Payment" element= {<Payment/>} />
           </Routes>
         {/* </Layout> */}
       </Router>

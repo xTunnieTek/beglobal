@@ -7,7 +7,6 @@ import Facetime from '@mui/icons-material/Videocam';
 import { Avatar } from "@mui/material";
 import { Fab } from '@mui/material';
 import Images from '@mui/icons-material/InsertPhotoOutlined';
-import Link from '@mui/icons-material/Inventory2Outlined';
 import FB from '@mui/icons-material/FacebookOutlined';
 import IG from '@mui/icons-material/Instagram';
 import MicIcon from '@mui/icons-material/Mic';
@@ -18,17 +17,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 import Jisoo from "../Assets/Images/Cloud/Jisoo2.jpg";
 import Jisoo2 from "../Assets/Images/Cloud/Jisoo.jpg";
 
-
-function srcset(image, size, rows = 1, cols = 1) {
-    return {
-      src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
-      srcSet: `${image}?w=${size * cols}&h=${
-        size * rows
-      }&fit=crop&auto=format&dpr=2 2x`,
-    };
-  }
   
-
 export default function Messages() {
     return (
         <Layout>
@@ -126,7 +115,7 @@ export default function Messages() {
                         </div>
                     </div>
                     <div className="Album">
-                        <ImageList sx={{ width: 450, height: 199 }} cols={3} rowHeight={164}>
+                        <ImageList sx={{ width: 450, height: 250 }} cols={3} rowHeight={145}>
                             {itemData.map((item) => (
                                 <ImageListItem key={item.img}>
                                 <img

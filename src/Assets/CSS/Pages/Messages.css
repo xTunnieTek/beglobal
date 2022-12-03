@@ -17,6 +17,7 @@
     /* align-items: center; */
     flex-wrap: wrap;
     overflow: hidden;
+    position: fixed;
 }
 
 .Chat{
@@ -25,7 +26,7 @@
     /* align-items: center; */
     flex-wrap: wrap;
     width: 70%;
-    height: 89.9vh;
+    /* height: 89.9vh; */
 }
 
 .Chat .Name{
@@ -111,12 +112,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    bottom: 0;
-    position: sticky;
+    /* bottom: 0;
+    position: sticky; */
     /* box-shadow: 0 0 2px 0 #e7e7e7; */
     background-color: #f0f0f0;
     width: 100%;
-    padding: 1%;
+    padding: 0.5%;
 }
 
 
@@ -146,9 +147,9 @@
 }
 
 .Album img{
-    width: 140px !important;
-    height: 140px !important;
-    object-fit: cover !important;
+    max-width: 145px ;
+    max-height: 145px ;
+    object-fit: contain ;
 }
 
 .Info .Name{
@@ -177,12 +178,12 @@
         align-items: center;
         flex-wrap: wrap;
         position: fixed;
-        bottom: 0;
+        top:7vh;
         width: 100%;
     }
 
     .History{
-        height: 70vh;
+        height: 66vh;
     }
 
     .Chat{
@@ -199,6 +200,7 @@
         border-radius: 10px;
         margin-right: 1%;
         max-width: 70%;    
+        padding: 1%;
     }
 
     .Received .Text{
@@ -208,6 +210,7 @@
         border-radius: 10px;
         margin-right: 1%;
         max-width: 70%;    
+        padding: 1%;
     }
 
     .Chat .ToolBox{
@@ -217,7 +220,8 @@
         background-color: #f0f0f0;
         padding: 1%;
         position: fixed;
-        bottom: 7%;
+        bottom: 8%;
+        height: 7vh;
     }
 
     .ToolBox .file{
@@ -225,7 +229,11 @@
     }
 
     .ToolBox input{
-        width: 20rem;
+        width: 15rem;
+    }
+
+    .Chat .Name{
+        height: 7vh;
     }
 }
     

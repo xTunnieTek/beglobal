@@ -10,6 +10,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import { Avatar } from "@mui/material";
 import TextareaAutosize from '@mui/material/TextareaAutosize';
 import Love from '@mui/icons-material/FavoriteBorder';
+// import Comment from '@mui/icons-material/ShortText';
 
 
 import { Fab } from '@mui/material';
@@ -116,12 +117,13 @@ export default function Global() {
                         <img className="postImages" src={Post} alt="Post" />
                     </div>
                     <div className="PostFooter">
-                        <Fab aria-label="love" sx={{ color: '#e94057','&:hover': {color: '#942837',}}}>
+                        <Fab size="small" aria-label="love" sx={{ color: '#FFFFFF',background:'#E94057',marginRight:'3%' , zIndex:'1','&:hover': {color: '#942837',}}}>
                             <Love />
                         </Fab>
-                        <Button >
-                            Comment
-                        </Button>  
+                        <b>1.5k Like</b>
+                        <input 
+                        style={{outline:'none',width:'17rem',padding:'2%',fontSize:'1rem',backgroundColor:'#FFF',borderRadius:'10px',border:'1px solid #dedede',marginLeft:'5%'}}
+                        type="text" placeholder="Add a comment..." />
                     </div>
                 </div>
 
@@ -135,7 +137,15 @@ export default function Global() {
                     </div>
                     <div className="PostBody">
                         <p>Hi, I'm Remy Sharp. I'm a software engineer and I'm passionate about building great software. I have a lot of experience building web applications using React, Node, and GraphQL. I'm currently looking for a new role and am open to a wide range of opportunities. If you'd like to chat about a potential role, please reach out!</p>
-                        
+                    </div>
+                    <div className="PostFooter">
+                        <Fab size="small" aria-label="love" sx={{ color: '#FFFFFF',background:'#E94057',marginRight:'3%' , zIndex:'1','&:hover': {color: '#942837',}}}>
+                            <Love />
+                        </Fab>
+                        <b>1.5k Like</b>
+                        <input 
+                        style={{outline:'none',width:'17rem',padding:'2%',fontSize:'1rem',backgroundColor:'#FFF',borderRadius:'10px',border:'1px solid #dedede',marginLeft:'5%'}}
+                        type="text" placeholder="Add a comment..." />
                     </div>
                 </div>
 
@@ -150,18 +160,14 @@ export default function Global() {
                     <div className="PostBody">
                         <p>Hi, I'm Remy Sharp. I'm a software engineer and I'm passionate about building great software. I have a lot of experience building web applications using React, Node, and GraphQL. I'm currently looking for a new role and am open to a wide range of opportunities. If you'd like to chat about a potential role, please reach out!</p> 
                     </div>
-                </div>
-
-                <div className="Post">
-                    <div className="PostHeader">
-                        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                        <div className="PostHeaderInfo">
-                            <h3>Remy Sharp</h3>
-                            <p>Today at 5:42 PM</p>
-                        </div>
-                    </div>
-                    <div className="PostBody">
-                        <p>Hi, I'm Remy Sharp. I'm a software engineer and I'm passionate about building great software. I have a lot of experience building web applications using React, Node, and GraphQL. I'm currently looking for a new role and am open to a wide range of opportunities. If you'd like to chat about a potential role, please reach out!</p> 
+                    <div className="PostFooter">
+                        <Fab size="small" aria-label="love" sx={{ color: '#FFFFFF',background:'#E94057',marginRight:'3%' , zIndex:'1','&:hover': {color: '#942837',}}}>
+                            <Love />
+                        </Fab>
+                        <b>1.5k Like</b>
+                        <input 
+                        style={{outline:'none',width:'17rem',padding:'2%',fontSize:'1rem',backgroundColor:'#FFF',borderRadius:'10px',border:'1px solid #dedede',marginLeft:'5%'}}
+                        type="text" placeholder="Add a comment..." />
                     </div>
                 </div>
 
@@ -175,6 +181,37 @@ export default function Global() {
                     </div>
                     <div className="PostBody">
                         <p>Hi, I'm Remy Sharp. I'm a software engineer and I'm passionate about building great software. I have a lot of experience building web applications using React, Node, and GraphQL. I'm currently looking for a new role and am open to a wide range of opportunities. If you'd like to chat about a potential role, please reach out!</p> 
+                    </div>
+                    <div className="PostFooter">
+                        <Fab size="small" aria-label="love" sx={{ color: '#FFFFFF',background:'#E94057',marginRight:'3%' , zIndex:'1','&:hover': {color: '#942837',}}}>
+                            <Love />
+                        </Fab>
+                        <b>1.5k Like</b>
+                        <input 
+                        style={{outline:'none',width:'17rem',padding:'2%',fontSize:'1rem',backgroundColor:'#FFF',borderRadius:'10px',border:'1px solid #dedede',marginLeft:'5%'}}
+                        type="text" placeholder="Add a comment..." />
+                    </div>
+                </div>
+
+                <div className="Post">
+                    <div className="PostHeader">
+                        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                        <div className="PostHeaderInfo">
+                            <h3>Remy Sharp</h3>
+                            <p>Today at 5:42 PM</p>
+                        </div>
+                    </div>
+                    <div className="PostBody">
+                        <p>Hi, I'm Remy Sharp. I'm a software engineer and I'm passionate about building great software. I have a lot of experience building web applications using React, Node, and GraphQL. I'm currently looking for a new role and am open to a wide range of opportunities. If you'd like to chat about a potential role, please reach out!</p> 
+                    </div>
+                    <div className="PostFooter">
+                        <Fab size="small" aria-label="love" sx={{ color: '#FFFFFF',background:'#E94057',marginRight:'3%' , zIndex:'1','&:hover': {color: '#942837',}}}>
+                            <Love />
+                        </Fab>
+                        <b>1.5k Like</b>
+                        <input 
+                        style={{outline:'none',width:'17rem',padding:'2%',fontSize:'1rem',backgroundColor:'#FFF',borderRadius:'10px',border:'1px solid #dedede',marginLeft:'5%'}}
+                        type="text" placeholder="Add a comment..." />
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@ export default function Login() {
                     <h1>WELCOME TO</h1>
                     <h2>BeDating</h2>
                 </div>
-                <div className="Button">
+                <div className="ButtonLogin">
                     <Button variant="contained">LOGIN</Button>
                 </div>
             </div>
