@@ -88,7 +88,7 @@ a{
 .sidebar .Profile{
     width: 100%;
     display: flex;
-    /* justify-content: center; */
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     background: linear-gradient(to left, #f85757, #e03030);

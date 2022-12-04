@@ -5,15 +5,27 @@ import Love from '@mui/icons-material/Favorite';
 import Back from '@mui/icons-material/SettingsBackupRestore';
 import { Fab } from '@mui/material';
 import TinderCard from 'react-tinder-card'
-import React, { useState, useMemo, useRef } from 'react'
-
-
+import React, { useState, useMemo, useRef, useContext } from 'react'
+import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../context/AuthContext";
 import Photo from '../Assets/Images/Cloud/Jisoo.jpg';
 import Photo2 from '../Assets/Images/Cloud/Rose.jpg';
 import Photo3 from '../Assets/Images/Cloud/Nancy.jpg';
 import Photo4 from '../Assets/Images/Cloud/Min.jpg';
+import { useEffect } from "react";
 
 export default function Home() {
+  const navigate = useNavigate();
+  const contextDataAuth = useContext(AuthContext);
+  const {isAuthen} = contextDataAuth.authContext;
+  console.log(contextDataAuth);
+  console.log(isAuthen);
+
+  useEffect(() => {
+    if(isAuthen === null) {
+      navigate("/login");
+    }
+  },[])
 
 const onSwipe = (direction) => {
   console.log('You swiped: ' + direction)
