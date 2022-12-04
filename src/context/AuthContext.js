@@ -5,7 +5,7 @@ export const AuthContext = createContext();
 function AuthContextProvider({ children }) {
   const isAuthen = localStorage.getItem("AuthToken");
 
-  const [authContext, setauthContext] = useState({
+  const [authContext, setAuthContext] = useState({
     isAuthen,
   });
 

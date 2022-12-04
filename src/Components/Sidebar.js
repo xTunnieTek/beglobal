@@ -35,7 +35,7 @@ function Sidebar() {
   useEffect(() => {
     getUser(userId)
       .then((res) => setUser(res.data.user))
-      .catch((err) => console.log(err));
+      .catch((err) => console.log(12));
   }, []);
   const [value, setValue] = React.useState(0);
   const handleChange = (event, newValue) => {
@@ -59,7 +59,7 @@ function Sidebar() {
               </a>
             </div>
             <div className="ProfileName">
-              <h3>{user.name}</h3>
+              <h3>{user?.name}</h3>
             </div>
             {/* <div className="Nav">
                         <button><i class="fa-solid fa-earth-asia"></i></button>
